@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to my Website</title>
+    	<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+      <link href="main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Josh's</h1>
+      <p class="desc">An Introduction</p>
+    </header>
+
+    <div class="collapse">
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+      <aside class="sidebar">
+        <div class="widget">
+          <h2>Hello!</h2>
+          <p>Welcome to my Website, Feel Free to Look Around. Don't Hesitate to Contact Me!</p>
+        </div>
+        <div class="widget">
+          <h2>Contact</h2>
+          <p>This is Where you can look for me</p>
+        </div>
+      </aside>
+      <div class="container">
+        <form action="action_page.php">
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="indonesia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+    </body>
+      </html>
